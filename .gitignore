@@ -1,0 +1,48 @@
+# C/C++
+build/
+cmake-build-*/
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Profiling
+*.nsys-rep
+*.qdrep
+*.sqlite
+*.ncu-rep
+
+# Generated results
+results/*
+!results/.gitkeep
+profiles/imported/*
+!profiles/imported/.gitkeep
+profiles/processed/*
+!profiles/processed/.gitkeep
+
+# Temporary / IDE
+*.log
+tmp/
+temp/
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
